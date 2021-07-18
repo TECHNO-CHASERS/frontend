@@ -13,8 +13,10 @@ function App() {
       <Navbar />
       <BrowserRouter>
         <div className="left">
-          <Route exact path="/" component={Image} />
-          <Route path="/signup" component={ImageSignup} />
+          <Switch>
+            <Route exact path="/" component={Image} />
+            <Route path="/signup" component={ImageSignup} />
+          </Switch>
         </div>
         <div className="right">
           <Switch>

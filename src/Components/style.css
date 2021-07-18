@@ -8,7 +8,7 @@ img {
   width: 100%;
 }
 
-.navbar {
+.navbar{
   background-image: linear-gradient(to right, blue, lightblue);
   text-align: center;
   font-size: 30px;
@@ -102,7 +102,6 @@ img {
 }
 
 .button-container2 {
-  /* margin-top: 40px; */
   position: absolute;
   left: 35%;
 }
