@@ -7,6 +7,7 @@ export const ImageSignup = () => {
   };
   return (
     <div>
+      HI THIS IS IMAGE BODY
       <input
         type="file"
         accept="image/*"
