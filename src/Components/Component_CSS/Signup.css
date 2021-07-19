@@ -1,0 +1,42 @@
+.CenterContainer2 {
+  margin: auto;
+  left: 0%;
+  width: 90%;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.CenterContainer2 h3 {
+  margin: 10px;
+}
+
+.inp-style {
+  width: 100%;
+  align-items: center;
+}
+
+.inp-style ul {
+  display: flex;
+  padding: 0;
+}
+
+.inp-style ul li {
+  list-style: none;
+}
+
+.button-container2 {
+  text-align: center;
+  margin: 0 0 0 15%;
+  padding-bottom: 5%;
+  width: 60%;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 120%;
+  background-color: green;
+  padding: 10px 20px 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 50px;
+  border-radius: 5px;
+}

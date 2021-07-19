@@ -1,0 +1,9 @@
+.ImageContainer {
+  background-color: black;
+  margin: 10% 0 0 5%;
+}
+
+img {
+  height: 50%;
+  width: 100%;
+}

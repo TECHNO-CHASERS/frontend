@@ -1,0 +1,17 @@
+.Split {
+  width: 100%;
+  align-items: center;
+}
+
+.Split ul {
+  display: flex;
+}
+
+.Split ul li {
+  padding: 5px;
+  list-style: none;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 50%;
+}
+

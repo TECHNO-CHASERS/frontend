@@ -1,7 +1,11 @@
 import React from "react";
+import "./Component_CSS/Signup.css";
 
 export default class Signup extends React.Component {
   render() {
+    function signup() {
+      alert("YOUR ARE SIGNED UP NOW");
+    }
     return (
       <div className="Body">
         <div className="CenterContainer2">
@@ -106,7 +110,8 @@ export default class Signup extends React.Component {
               className="btn"
               href="#"
               id="sign-up"
-              onClick={(event) => (window.location.href = "/signup")}
+              onClick={signup}
+              style={{ cursor: "pointer" }}
             >
               SIGN UP
             </button>

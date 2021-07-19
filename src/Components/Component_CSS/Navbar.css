@@ -1,0 +1,15 @@
+.navbar {
+  background-image: linear-gradient(to right, blue, lightblue);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+}
+
+.right-text {
+  float: right;
+  font-size: 20px;
+  display: flex;
+  padding-top: 5px;
+}
