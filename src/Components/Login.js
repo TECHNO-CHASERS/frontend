@@ -31,32 +31,23 @@ export default class Login extends React.Component {
             placeholder="ENTER PASSWORD"
           />
           <div className="rem-me">
-            <input type="checkbox" />
+            <input type="checkbox" style={{ cursor: "pointer" }} />
             Remember M
           </div>
-          <div className="for-pass">
-            <a
-              href="#"
-              onClick={func1}
-              style={{ textDecoration: "none", color: "black", cursor: "pointer" }}
-            >
-              Forgot Password
-            </a>
+          <div className="for-pass" onClick={func1} style={{ textDecoration: "none", color: "black", cursor: "pointer" }} >
+            Forgot Password
           </div>
           <div className="button-container">
-            <button className="btn" id="login" onClick={login}>
-              <a href="#" style={{ textDecoration: "none", color: "black" }}>
-                LOGIN
-              </a>
+            <button className="btn" id="login" onClick={login} style={{ textDecoration: "none", color: "black", cursor: "pointer" }} >
+              LOGIN
             </button>
             <button
               className="btn"
               id="sign-up"
               onClick={(event) => (window.location.href = "/signup")}
+              style={{ textDecoration: "none", color: "black", cursor: "pointer" }}
             >
-              <a href="#" style={{ textDecoration: "none", color: "black" }}>
-                SIGN UP
-              </a>
+              SIGN UP
             </button>
           </div>
         </div>
